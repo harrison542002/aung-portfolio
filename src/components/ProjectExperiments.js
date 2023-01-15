@@ -27,8 +27,8 @@ function ProjectExperiments() {
   }, [inView]);
 
   return (
-    <div className="bg-black text-white">
-      <h1 className="text-center text-white text-2xl pt-8 pb-2">
+    <div className="bg-black text-white lg:pt-20" id="projectEx">
+      <h1 className="text-center text-white text-2xl pb-2">
         Project Experiences
       </h1>
       <div className="flex justify-center">

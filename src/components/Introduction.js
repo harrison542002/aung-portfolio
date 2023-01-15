@@ -22,7 +22,7 @@ export default function Introduction() {
     }
   }, [inView]);
   return (
-    <div className="relative bg-black">
+    <div className="relative bg-black" id="intro">
       <video
         src={VideoBG}
         autoPlay
@@ -38,7 +38,7 @@ export default function Introduction() {
           >
             <h1
               className="text-center text-transparent lg:text-5xl text-2xl
-              p-5 lg:p-0
+              p-3 lg:p-0
                bg-clip-text bg-gradient-to-r from-red-600 to-blue-700
             h-full"
             >

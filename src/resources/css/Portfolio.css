@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+.header {
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+}
+
+.gradient-border {
+  border-image-source: linear-gradient(to right, #ff0000, #0000ff);
+  border-image-slice: 1;
+  border-radius: 50%;
+}
+
+.project {
+  background: linear-gradient(to right, #ff0000, #0000ff);
+}
+
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+}

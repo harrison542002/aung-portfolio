@@ -2,6 +2,7 @@ import React from "react";
 import Project from "./Project";
 import KN from "../assets/knshowcase.png";
 import CarSale from "../assets/car sale.png";
+import KNBK from "../assets/kn bk.png";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
@@ -42,6 +43,16 @@ function ProjectExperiments() {
           demo="https://harrison542002.github.io/know-your-neighborhood-ui-react/"
           source="https://github.com/harrison542002/know-your-neighborhood-ui-react"
           explain="This project is demonstrated how frontend is connected with backend. Authentication for OAuth2 and Login will be responsible from backend."
+        />
+
+        <Project
+          animate={animation}
+          img={KNBK}
+          skills="Spring Boot, Spring Security, OAuth2, JWT"
+          title="KN Project (Backend API)"
+          source="https://github.com/harrison542002/know-your-neighbour-bk/tree/master"
+          explain="This partner API demonstrates how user can authenticate based on JWT token-based authentication and with
+          OAuth2 servers authentication."
         />
         <Project
           animate={animation}

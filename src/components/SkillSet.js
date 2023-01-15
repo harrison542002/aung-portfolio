@@ -29,8 +29,8 @@ function SkillSet() {
     }
   }, [inView]);
   return (
-    <div className="bg-black pb-8" ref={ref}>
-      <h1 className="text-center text-white text-2xl pt-8 pb-2">
+    <div className="bg-black pb-8 pt-20 lg:pt-10" ref={ref}>
+      <h1 className="text-center text-white text-2xl pb-2">
         Skill Set Hightlights
       </h1>
       <div className="flex justify-center">
@@ -47,7 +47,7 @@ function SkillSet() {
         </div>
       </div>
       <div>
-        <div className="flex justify-center lg:space-x-8 space-x-4">
+        <div className="flex justify-center lg:space-x-8 space-x-3">
           <a href="https://www.java.com" target="_blank" rel="noreferrer">
             <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"

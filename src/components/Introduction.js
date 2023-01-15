@@ -22,8 +22,14 @@ export default function Introduction() {
     }
   }, [inView]);
   return (
-    <div className="relative">
-      <video src={VideoBG} autoPlay loop muted></video>
+    <div className="relative bg-black">
+      <video
+        src={VideoBG}
+        autoPlay
+        loop
+        muted
+        className="h-96 lg:h-full"
+      ></video>
       <div className="absolute top-0 w-full">
         <div ref={ref}>
           <motion.div

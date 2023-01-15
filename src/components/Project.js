@@ -23,12 +23,13 @@ function Project({ img, title, explain, animate, skills, demo, source }) {
             <h1 className="text-xl font-bold">Skill covered</h1>
             <p>{skills}</p>
           </div>
-          <div className="flex">
+          <div className="lg:flex">
             <a
               className=" p-3 rounded-lg mr-5
               border-2
             shadow-gray-600 shadow-md 
-            hover:bg-gradient-to-r from-red-500 to-blue-700 flex"
+            hover:bg-gradient-to-r from-red-500 to-blue-700 
+            flex"
               href={source}
               target="_blank"
             >
@@ -40,7 +41,9 @@ function Project({ img, title, explain, animate, skills, demo, source }) {
                 className="hover:bg-gradient-to-r from-red-500 
               border-2
               to-blue-700 p-3 rounded-lg
-            shadow-gray-600 shadow-md flex"
+            shadow-gray-600 shadow-md flex
+            mt-3
+            lg:mt-0 lg:w-auto w-1/2"
                 href={demo}
                 target="_blank"
               >

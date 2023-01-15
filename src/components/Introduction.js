@@ -69,10 +69,12 @@ export default function Introduction() {
           >
             <h1 className="text-xl mb-2">I am in profession as </h1>
             <h1 className="lg:text-3xl text-xl font-bold mb-3">
+              Web Developer
+            </h1>
+            <h1 className="lg:text-3xl text-xl font-bold mb-3">
               Spring Boot Developer
             </h1>
-            <h1 className="lg:text-3xl text-xlfont-bold mb-3">Web Developer</h1>
-            <h1 className="lg:text-3xl text-xlfont-bold mb-3">
+            <h1 className="lg:text-3xl text-xl font-bold mb-3">
               NodeJS Developer
             </h1>
             <h1>Based in Mandalay, Myanmar.</h1>

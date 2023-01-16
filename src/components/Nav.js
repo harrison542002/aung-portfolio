@@ -48,10 +48,10 @@ function Nav() {
       >
         <div className="flex justify-between">
           <div className="logo">
-            <img src={Logo} alt="aung thiha tun" className="w-20" />
+            <img src={Logo} alt="aung thiha tun" className="lg:w-20 w-14" />
           </div>
           <div
-            className="text-white lg:hidden p-5 text-4xl"
+            className="text-white lg:hidden p-3 lg:p-5 lg:text-4xl"
             onClick={() => handleClick()}
           >
             {show ? (

@@ -27,7 +27,7 @@ function ProjectExperiments() {
   }, [inView]);
 
   return (
-    <div className="bg-black text-white lg:pt-20" id="projectEx">
+    <div className="bg-black text-white pt-14 lg:pt-20" id="projectEx">
       <h1 className="text-center text-white text-2xl pb-2">
         Project Experiences
       </h1>

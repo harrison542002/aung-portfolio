@@ -29,8 +29,8 @@ function SkillSet() {
     }
   }, [inView]);
   return (
-    <div className="bg-black pb-8 pt-64 lg:pt-0" ref={ref}>
-      <h1 className="text-center text-white text-2xl pb-2 lg:pt-28" id="skills">
+    <div className="bg-black pb-8 pt-28 lg:pt-0" ref={ref} id="skills">
+      <h1 className="text-center text-white text-2xl pb-2 lg:pt-28">
         Skill Set Hightlights
       </h1>
       <div className="flex justify-center">

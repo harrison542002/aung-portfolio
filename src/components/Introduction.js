@@ -59,11 +59,11 @@ export default function Introduction() {
               <img
                 src={Profile1}
                 alt="aung thiha tun"
-                className="lg:w-64 w-48 lg:ml-4 rounded-md border-4"
+                className="lg:w-52 w-48 lg:ml-4 rounded-md border-4"
               />
             </motion.div>
           </div>
-          <div className="flex lg:ml-20 justify-center lg:justify-start">
+          <div className="flex lg:ml-20 justify-center lg:justify-start lg:mt-0 mt-10">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

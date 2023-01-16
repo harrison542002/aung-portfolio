@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aung-portfolio/static/css/main.7a05eff0.css",
-    "main.js": "/aung-portfolio/static/js/main.dfde21b8.js",
+    "main.css": "/aung-portfolio/static/css/main.ab52c3cf.css",
+    "main.js": "/aung-portfolio/static/js/main.3e97d4cd.js",
     "static/js/787.964c46fa.chunk.js": "/aung-portfolio/static/js/787.964c46fa.chunk.js",
     "static/media/dotted.mp4": "/aung-portfolio/static/media/dotted.6e09be51fe5e9f78005c.mp4",
     "static/media/profile.png": "/aung-portfolio/static/media/profile.c79a5120dfa01813bc3c.png",
@@ -11,12 +11,12 @@
     "static/media/aungLogo.png": "/aung-portfolio/static/media/aungLogo.bbbb4c23b1986b4154f6.png",
     "static/media/logo.svg": "/aung-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/aung-portfolio/index.html",
-    "main.7a05eff0.css.map": "/aung-portfolio/static/css/main.7a05eff0.css.map",
-    "main.dfde21b8.js.map": "/aung-portfolio/static/js/main.dfde21b8.js.map",
+    "main.ab52c3cf.css.map": "/aung-portfolio/static/css/main.ab52c3cf.css.map",
+    "main.3e97d4cd.js.map": "/aung-portfolio/static/js/main.3e97d4cd.js.map",
     "787.964c46fa.chunk.js.map": "/aung-portfolio/static/js/787.964c46fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a05eff0.css",
-    "static/js/main.dfde21b8.js"
+    "static/css/main.ab52c3cf.css",
+    "static/js/main.3e97d4cd.js"
   ]
 }

@@ -16,5 +16,6 @@
 
 video {
   width: 100%;
-  object-fit: fill;
+  height: 75% ;
+  object-fit: cover;
 }

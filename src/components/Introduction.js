@@ -4,6 +4,8 @@ import "../resources/css/Portfolio.css";
 import VideoBG from "../assets/dotted.mp4";
 import { useInView } from "react-intersection-observer";
 import Profile from "../assets/profile.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Introduction() {
   const animation = useAnimation();
@@ -22,15 +24,9 @@ export default function Introduction() {
     }
   }, [inView]);
   return (
-    <div className="relative bg-black" id="intro">
-      <video
-        src={VideoBG}
-        autoPlay
-        loop
-        muted
-        className="h-96 lg:h-full"
-      ></video>
-      <div className="absolute top-0 w-full">
+    <div className="introduction bg-black" id="intro">
+      <video src={VideoBG} autoPlay loop muted className=""></video>
+      <div className="absolute top-10 w-full">
         <div ref={ref}>
           <motion.div
             animate={animation}
@@ -44,41 +40,48 @@ export default function Introduction() {
             >
               Hi, My name is Aung Thiha Tun
             </h1>
+            <h1 className="text-center mt-3">
+              <FontAwesomeIcon icon={faEnvelope} className="text-lg mr-3" />
+              aungthiha12345mdy@gmail.com
+            </h1>
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-2 lg:p-16 p-4">
+        <div className="lg:grid grid-cols-2 lg:p-16 p-4">
           <div className="lg:flex justify-end">
             <motion.div
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 2, type: "spring", bounce: 0.2 }}
+              className="flex justify-center"
             >
               <img
                 src={Profile}
                 alt="aung thiha tun"
-                className="lg:w-64 w-3/4 ml-4"
+                className="lg:w-64 w-48 ml-4"
               />
             </motion.div>
           </div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            className="text-white lg:p-10 sm:p-4"
-          >
-            <h1 className="text-xl mb-2">I am in profession as </h1>
-            <h1 className="lg:text-3xl text-xl font-bold mb-3">
-              Web Developer
-            </h1>
-            <h1 className="lg:text-3xl text-xl font-bold mb-3">
-              Spring Boot Developer
-            </h1>
-            <h1 className="lg:text-3xl text-xl font-bold mb-3">
-              NodeJS Developer
-            </h1>
-            <h1>Based in Mandalay, Myanmar.</h1>
-          </motion.div>
+          <div className="flex ml-20">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1 }}
+              className="text-white"
+            >
+              <h1 className="text-xl mb-2">I am in profession as </h1>
+              <h1 className="lg:text-3xl  text-xl font-bold mb-3">
+                Web Developer
+              </h1>
+              <h1 className="lg:text-3xl text-xl font-bold mb-3">
+                Spring Boot Developer
+              </h1>
+              <h1 className="lg:text-3xl text-xl font-bold mb-3">
+                NodeJS Developer
+              </h1>
+              <h1>Based in Mandalay, Myanmar.</h1>
+            </motion.div>
+          </div>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ function Language() {
         <div className="flex justify-center">
           <div className="border-t-4 border-white border-double w-80"></div>
         </div>
-        <div className="flex justify-center text-2xl space-x-5 mt-5">
+        <div className="flex justify-center text-xl lg:text-2xl space-x-5 mt-5">
           <div className="text-center">
             <h1>Burmese</h1>
             <h1 className="text-6xl">🇲🇲</h1>

@@ -4,6 +4,7 @@ import "../resources/css/Portfolio.css";
 import VideoBG from "../assets/dotted.mp4";
 import { useInView } from "react-intersection-observer";
 import Profile from "../assets/profile.png";
+import Profile1 from "../assets/profile1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -24,13 +25,13 @@ export default function Introduction() {
     }
   }, [inView]);
   return (
-    <div className="introduction bg-black" id="intro">
-      <video src={VideoBG} autoPlay loop muted className=""></video>
-      <div className="absolute top-10 w-full">
+    <div className="introduction bg-black lg:h-full" id="intro">
+      <video src={VideoBG} autoPlay loop muted></video>
+      <div className="absolute top-0 w-full">
         <div ref={ref}>
           <motion.div
             animate={animation}
-            className="header text-gray-300 lg:mt-32 my-5"
+            className="header text-gray-300 lg:mt-16 my-5"
           >
             <h1
               className="text-center text-transparent lg:text-5xl text-2xl
@@ -56,18 +57,18 @@ export default function Introduction() {
               className="flex justify-center"
             >
               <img
-                src={Profile}
+                src={Profile1}
                 alt="aung thiha tun"
-                className="lg:w-64 w-48 ml-4"
+                className="lg:w-64 w-48 lg:ml-4 rounded-md border-4"
               />
             </motion.div>
           </div>
-          <div className="flex ml-20">
+          <div className="flex lg:ml-20 justify-center lg:justify-start">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 1 }}
-              className="text-white"
+              className="text-white text-center lg:text-left"
             >
               <h1 className="text-xl mb-2">I am in profession as </h1>
               <h1 className="lg:text-3xl  text-xl font-bold mb-3">

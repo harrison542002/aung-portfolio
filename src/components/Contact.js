@@ -65,10 +65,6 @@ function Contact() {
               <FontAwesomeIcon icon={faGithub} className="text-white" />
             </a>
           </div>
-          <div className="text-center text-white mt-3 flex justify-center">
-            <FontAwesomeIcon icon={faEnvelope} className="text-xl mr-3" />
-            aungthiha12345mdy@gmail.com
-          </div>
           <div></div>
         </div>
         <div className="connect-form mt-10 lg:mt-0">

@@ -41,9 +41,12 @@ export default function Introduction() {
             >
               Hi, My name is Aung Thiha Tun
             </h1>
-            <h1 className="text-center mt-3">
-              <FontAwesomeIcon icon={faEnvelope} className="text-lg mr-3" />
-              aungthiha12345mdy@gmail.com
+            <h1 className="text-center mt-3 flex justify-center">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="text-xl px-3 pt-1"
+              />
+              <p>aungthiha12345mdy@gmail.com</p>
             </h1>
           </motion.div>
         </div>
@@ -59,11 +62,12 @@ export default function Introduction() {
               <img
                 src={Profile1}
                 alt="aung thiha tun"
-                className="lg:w-52 w-48 lg:ml-4 rounded-md border-4"
+                className="lg:w-60 w-48 lg:ml-4 rounded-full border-4
+                shadow-md shadow-gray-500"
               />
             </motion.div>
           </div>
-          <div className="flex lg:ml-20 justify-center lg:justify-start lg:mt-0 mt-10">
+          <div className="flex lg:ml-8 justify-center lg:justify-start lg:mt-0 mt-10">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

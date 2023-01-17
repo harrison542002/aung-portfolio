@@ -10,7 +10,7 @@ function Skill({ percentage, skill, animation }) {
       >
         <h1 className="text-2xl">{percentage} %</h1>
       </div>
-      <h1 className="mt-3">{skill}</h1>
+      <h1 className="mt-3 text-center">{skill}</h1>
     </motion.div>
   );
 }

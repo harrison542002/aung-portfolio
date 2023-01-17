@@ -16,7 +16,7 @@ function Project({ img, title, explain, animate, skills, demo, source }) {
         </div>
         <div className="col-span-4 p-8">
           <div className="mb-3">
-            <h1 className="mb-5 text-xl font-bold">{title}</h1>
+            <h1 className="mb-5 text-xl font-bold ">{title}</h1>
             <p>{explain}</p>
           </div>
           <div className="my-5">

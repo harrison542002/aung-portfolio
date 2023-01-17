@@ -4,7 +4,7 @@ import {
   faLinkedinIn,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 
@@ -16,8 +16,6 @@ function Contact() {
   const [error, setError] = useState("");
   async function submitForm(e) {
     e.preventDefault();
-    const webhookUrl =
-      "https://hooks.slack.com/services/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";
     if (
       firstName.length <= 0 ||
       lastName.length <= 0 ||
@@ -65,6 +63,13 @@ function Contact() {
               <FontAwesomeIcon icon={faGithub} className="text-white" />
             </a>
           </div>
+          <div className="text-center text-white mt-3 flex justify-center">
+            <FontAwesomeIcon
+              icon={faEnvelopeOpenText}
+              className="text-xl mr-3"
+            />
+            aungthiha12345mdy@gmail.com
+          </div>
           <div></div>
         </div>
         <div className="connect-form mt-10 lg:mt-0">
@@ -77,7 +82,7 @@ function Contact() {
             ) : (
               <></>
             )}
-            <div className="lg:flex lg:space-x-6 mb-4">
+            <div className="lg:grid grid-cols-2 lg:space-x-6 mb-4">
               <div>
                 {error.length > 0 ? <h1 className="text-pink-700">*</h1> : ""}
                 <input

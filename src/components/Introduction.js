@@ -78,7 +78,7 @@ export default function Introduction() {
         </div>
         <div className="flex justify-center bg-pink-600 lg:p-8">
           <div className="text-white text-xl p-8 text-center">
-            I have been diving in software dev since 2020 and created lots of
+            I have been working and learning on software dev since 2020 and created lots of
             <b> personal</b> and <b>academic projects</b> .
             <br />
             As a person, I am <b>optimistic</b>, <b>passionate</b>,

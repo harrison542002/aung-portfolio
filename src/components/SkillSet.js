@@ -38,12 +38,12 @@ function SkillSet() {
       </div>
       <div className="lg:flex justify-center text-white">
         <div className="grid grid-cols-3">
-          <Skill percentage="66" skill="Web Dev" animation={animation} />
-          <Skill percentage="77" skill="Spring Boot" animation={animation} />
-          <Skill percentage="52" skill="React" animation={animation} />
-          <Skill percentage="70" skill="MySQL" animation={animation} />
-          <Skill percentage="45" skill="Mongo DB" animation={animation} />
-          <Skill percentage="50" skill="NodeJS" animation={animation} />
+          <Skill percentage="90" skill="Web Dev" animation={animation} />
+          <Skill percentage="80" skill="Spring Boot" animation={animation} />
+          <Skill percentage="85" skill="React" animation={animation} />
+          <Skill percentage="80" skill="MySQL" animation={animation} />
+          <Skill percentage="73" skill="Mongo DB" animation={animation} />
+          <Skill percentage="80" skill="NodeJS" animation={animation} />
         </div>
       </div>
       <div>

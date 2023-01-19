@@ -36,7 +36,7 @@ function Contact() {
         <div className="border-t-4 border-white border-double w-72"></div>
       </div>
       <div className="lg:grid grid-cols-2">
-        <div className="social px-20">
+        <div className="social px-20 lg:mt-5 mt-0">
           <h1 className="text-center text-white text-2xl pt-5 pb-5">
             Reach Me From
           </h1>

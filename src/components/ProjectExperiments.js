@@ -6,6 +6,8 @@ import KNBK from "../assets/kn bk.png";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
+import JobPortal from "../assets/jobportal.png";
+import JobUI from "../assets/jobhome.png";
 
 function ProjectExperiments() {
   const { ref, inView } = useInView({
@@ -44,6 +46,14 @@ function ProjectExperiments() {
           source="https://github.com/harrison542002/know-your-neighborhood-ui-react"
           explain="This project is demonstrated how frontend is connected with backend. Authentication for OAuth2 and Login will be responsible from backend."
         />
+        <Project
+          animate={animation}
+          img={JobPortal}
+          skills="Spring MVC, STOMP WebSocket, Bootstrap, JavaScript"
+          title="Job Portal"
+          source="https://github.com/harrison542002/JobPortal-spring-project"
+          explain="This project allows user to search, apply jobs and message to each other. STOMP which is sub-protocol of Websocket is used in real-time messaging feature."
+        />
 
         <Project
           animate={animation}
@@ -57,10 +67,18 @@ function ProjectExperiments() {
         <Project
           animate={animation}
           img={CarSale}
-          skills="Spring Boot, Spring Security, Tailwind CSS"
+          skills="Spring Boot, Spring Security, Tailwind CSS, AJAX, JavaScript"
           title="Car Sale Portal"
           source="https://github.com/harrison542002/car-sale-spring-boot"
           explain="A portal for user to post new car for sale and get appointment. Admin panel is included for assign admin authority to user and manage car sale, manage appoinment as well as transaction."
+        />
+        <Project
+          animate={animation}
+          img={JobUI}
+          skills="Angular, Bootstrap, TypeScript"
+          title="Job Portal UI Interface"
+          source="https://github.com/harrison542002/job-portal-angular"
+          explain="UI Interface with Angular framework where user can login, register and create profile."
         />
       </div>
     </div>

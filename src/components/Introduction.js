@@ -5,8 +5,6 @@ import VideoBG from "../assets/dotted.mp4";
 import { useInView } from "react-intersection-observer";
 import Profile from "../assets/profile.png";
 import Profile1 from "../assets/profile1.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Introduction() {
   const animation = useAnimation();
@@ -25,7 +23,7 @@ export default function Introduction() {
     }
   }, [inView]);
   return (
-    <div className="introduction bg-black lg:h-full" id="intro">
+    <div className="introduction bg-black lg:h-full">
       <video src={VideoBG} autoPlay loop muted></video>
       <div className="absolute top-0 w-full">
         <div ref={ref}>
@@ -34,19 +32,11 @@ export default function Introduction() {
             className="header text-gray-300 lg:mt-16 my-5"
           >
             <h1
-              className="text-center text-transparent lg:text-5xl text-2xl
-              p-3 lg:p-0
-               bg-clip-text bg-gradient-to-r from-red-600 to-blue-700
+              className="text-center lg:text-5xl text-2xl
+              p-3 lg:p-0 font-extrabold drop-shadow-lg
             h-full"
             >
-              Hi, My name is Aung Thiha Tun
-            </h1>
-            <h1 className="text-center mt-3 flex justify-center">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                className="text-xl px-3 pt-1"
-              />
-              <p>aungthiha12345mdy@gmail.com</p>
+              My name is Aung Thiha Tun
             </h1>
           </motion.div>
         </div>
@@ -74,18 +64,26 @@ export default function Introduction() {
               transition={{ duration: 1 }}
               className="text-white text-center lg:text-left"
             >
-              <h1 className="text-xl mb-2">I am in profession as </h1>
+              <h1 className="text-xl mb-2">I am professional in </h1>
               <h1 className="lg:text-3xl  text-xl font-bold mb-3">
-                Web Developer
+                Web Development
               </h1>
+              <h1 className="lg:text-3xl text-xl font-bold mb-3">NodeJS</h1>
               <h1 className="lg:text-3xl text-xl font-bold mb-3">
-                Spring Boot Developer
-              </h1>
-              <h1 className="lg:text-3xl text-xl font-bold mb-3">
-                NodeJS Developer
+                Spring Boot and More
               </h1>
               <h1>Based in Mandalay, Myanmar.</h1>
             </motion.div>
+          </div>
+        </div>
+        <div className="flex justify-center bg-pink-600 lg:p-8">
+          <div className="text-white text-xl p-8 text-center">
+            I have been diving in software dev since 2020 and created lots of
+            <b> personal</b> and <b>academic projects</b> .
+            <br />
+            As a person, I am <b>optimistic</b>, <b>passionate</b>,
+            <b> fast to learn</b> and
+            <b> timely on deadline</b>.
           </div>
         </div>
       </div>

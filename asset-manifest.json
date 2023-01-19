@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/aung-portfolio/static/css/main.c6b12fd2.css",
-    "main.js": "/aung-portfolio/static/js/main.7ed9d095.js",
+    "main.css": "/aung-portfolio/static/css/main.2ee33cc5.css",
+    "main.js": "/aung-portfolio/static/js/main.e541451d.js",
     "static/js/787.964c46fa.chunk.js": "/aung-portfolio/static/js/787.964c46fa.chunk.js",
     "static/media/dotted.mp4": "/aung-portfolio/static/media/dotted.6e09be51fe5e9f78005c.mp4",
     "static/media/profile.png": "/aung-portfolio/static/media/profile.c79a5120dfa01813bc3c.png",
+    "static/media/jobhome.png": "/aung-portfolio/static/media/jobhome.0dff8ecd3eb32f26090c.png",
     "static/media/profile1.png": "/aung-portfolio/static/media/profile1.449096c2bf1155c0e64b.png",
     "static/media/knshowcase.png": "/aung-portfolio/static/media/knshowcase.04ce7f87830ba451e015.png",
     "static/media/car sale.png": "/aung-portfolio/static/media/car sale.a41827e8d3b195b19103.png",
+    "static/media/jobportal.png": "/aung-portfolio/static/media/jobportal.9bccf5e5a27ad3d6bc0c.png",
     "static/media/kn bk.png": "/aung-portfolio/static/media/kn bk.676d237d080ade21eee8.png",
     "static/media/aungLogo.png": "/aung-portfolio/static/media/aungLogo.bbbb4c23b1986b4154f6.png",
     "static/media/logo.svg": "/aung-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/aung-portfolio/index.html",
-    "main.c6b12fd2.css.map": "/aung-portfolio/static/css/main.c6b12fd2.css.map",
-    "main.7ed9d095.js.map": "/aung-portfolio/static/js/main.7ed9d095.js.map",
+    "main.2ee33cc5.css.map": "/aung-portfolio/static/css/main.2ee33cc5.css.map",
+    "main.e541451d.js.map": "/aung-portfolio/static/js/main.e541451d.js.map",
     "787.964c46fa.chunk.js.map": "/aung-portfolio/static/js/787.964c46fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b12fd2.css",
-    "static/js/main.7ed9d095.js"
+    "static/css/main.2ee33cc5.css",
+    "static/js/main.e541451d.js"
   ]
 }

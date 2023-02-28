@@ -13,17 +13,16 @@ function Nav() {
   useEffect(() => {
     if (inView) {
       animation.start({
-        x: 0,
+        opacity: 1,
         transition: {
-          type: "spring",
+          delay: 0.1,
           duration: 1,
-          bounce: 0.1,
         },
       });
     }
     if (!inView) {
       animation.start({
-        x: "-100vw",
+        opacity: 0,
       });
     }
   }, [inView]);

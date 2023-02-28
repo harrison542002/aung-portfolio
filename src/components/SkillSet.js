@@ -7,7 +7,7 @@ import "react-circular-progressbar/dist/styles.css";
 function SkillSet() {
   const animation = useAnimation();
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.5,
   });
   useEffect(() => {
     if (inView) {
@@ -17,12 +17,19 @@ function SkillSet() {
         transition: {
           duration: 1,
           type: "spring",
+          delay: 0.3,
           bounce: 0.2,
         },
       });
     }
     if (!inView) {
       animation.start({
+        transition: {
+          duration: 1,
+          type: "spring",
+          delay: 0.3,
+          bounce: 0.2,
+        },
         y: "200%",
         opacity: 0,
       });
@@ -30,11 +37,11 @@ function SkillSet() {
   }, [inView]);
   return (
     <div className="bg-black pb-8 pt-28 lg:pt-0" ref={ref} id="skills">
-      <h1 className="text-center text-white text-2xl pb-2 lg:pt-28">
+      <h1 className="text-center text-white text-2xl pb-2 lg:pb-5 lg:pt-28 lg:text-5xl">
         Skill Set Hightlights
       </h1>
       <div className="flex justify-center">
-        <div className="border-t-4 border-white border-double w-72"></div>
+        <div className="border-t-4 border-white border w-96"></div>
       </div>
       <div className="lg:flex justify-center text-white">
         <div className="grid grid-cols-3">
@@ -42,7 +49,7 @@ function SkillSet() {
           <Skill percentage="85" skill="NodeJS" animation={animation} />
           <Skill percentage="85" skill="Angular" animation={animation} />
           <Skill percentage="85" skill="React" animation={animation} />
-          <Skill percentage="73" skill="Mongo DB" animation={animation} />
+          <Skill percentage="80" skill="Mongo DB" animation={animation} />
           <Skill percentage="80" skill="MySQL" animation={animation} />
         </div>
       </div>

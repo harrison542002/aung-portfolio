@@ -18,7 +18,7 @@ function ProjectExperiments() {
     if (inView) {
       animation.start({
         x: 0,
-        transition: { duration: 1, type: "spring", bounce: 0.2 },
+        transition: { duration: 2, delay: 0.2, type: "spring", bounce: 0.2 },
       });
     }
     if (!inView) {
@@ -30,11 +30,11 @@ function ProjectExperiments() {
 
   return (
     <div className="bg-black text-white pt-14 lg:pt-20" id="projectEx">
-      <h1 className="text-center text-white text-2xl pb-2">
+      <h1 className="text-center text-white text-2xl lg:text-5xl pb-2 lg:pb-5">
         Project Experiences
       </h1>
       <div className="flex justify-center">
-        <div className="border-t-4 border-white border-double w-72"></div>
+        <div className="border-t-4 border-white border w-96"></div>
       </div>
       <div className="px-10 py-4" ref={ref}>
         <Project

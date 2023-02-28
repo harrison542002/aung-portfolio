@@ -6,7 +6,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import axios from "axios";
 
 function Contact() {
   const [firstName, setFirstName] = useState("");
@@ -29,11 +28,11 @@ function Contact() {
 
   return (
     <div className="bg-black pt-20 px-10 pb-6" id="contact">
-      <h1 className="text-center text-white text-3xl pb-3">
+      <h1 className="text-center text-white text-3xl pb-3 lg:text-5xl">
         Let's Keep In Touch
       </h1>
       <div className="flex justify-center">
-        <div className="border-t-4 border-white border-double w-72"></div>
+        <div className="border-t-4 border-white w-96"></div>
       </div>
       <div className="lg:grid grid-cols-2">
         <div className="social px-20 lg:mt-5 mt-0">

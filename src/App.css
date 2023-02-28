@@ -1,0 +1,14 @@
+.email {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: fixed;
+  bottom: 10%;
+  letter-spacing: 0.15rem;
+  transition: all;
+  transition-delay: 0.2s;
+  transition-duration: 1s;
+}
+
+.email:hover {
+  letter-spacing: 0.2rem;
+}

@@ -13,7 +13,7 @@ export default function Introduction() {
     if (inView) {
       animation.start({
         y: 0,
-        transition: { type: "spring", duration: 1, bounce: 0.2 },
+        transition: { type: "spring", duration: 1, bounce: 0.2, delay: 0.2 },
       });
     }
     if (!inView) {
@@ -46,7 +46,12 @@ export default function Introduction() {
             <motion.div
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
-              transition={{ duration: 2, type: "spring", bounce: 0.2 }}
+              transition={{
+                duration: 2,
+                type: "spring",
+                bounce: 0.2,
+                delay: 0.2,
+              }}
               className="flex justify-center"
             >
               <img
@@ -61,15 +66,17 @@ export default function Introduction() {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 3, delay: 0.2 }}
               className="text-white text-center lg:text-left"
             >
               <h1 className="text-xl mb-2">I am professional in </h1>
-              <h1 className="lg:text-3xl  text-xl font-bold mb-3">
+              <h1 className="lg:text-3xl  text-xl font-bold mb-3 text-pink-600">
                 Web Development
               </h1>
-              <h1 className="lg:text-3xl text-xl font-bold mb-3">NodeJS</h1>
-              <h1 className="lg:text-3xl text-xl font-bold mb-3">
+              <h1 className="lg:text-3xl text-xl font-bold mb-3 text-pink-600">
+                NodeJS
+              </h1>
+              <h1 className="lg:text-3xl text-xl font-bold mb-3 text-pink-600">
                 Spring Boot and More
               </h1>
               <h1>Based in Mandalay, Myanmar.</h1>
@@ -78,7 +85,8 @@ export default function Introduction() {
         </div>
         <div className="flex justify-center bg-pink-600 lg:p-8">
           <div className="text-white text-xl p-8 text-center">
-            I have been working and learning on software dev since 2020 and created lots of
+            I have been working and learning on software dev since 2020 and
+            created lots of
             <b> personal</b> and <b>academic projects</b> .
             <br />
             As a person, I am <b>optimistic</b>, <b>passionate</b>,

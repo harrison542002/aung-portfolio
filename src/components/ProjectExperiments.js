@@ -34,7 +34,7 @@ function ProjectExperiments() {
         Project Experiences
       </h1>
       <div className="flex justify-center">
-        <div className="border-t-4 border-white border w-96"></div>
+        <div className="border-t-4 border-white border lg:w-96 w-72"></div>
       </div>
       <div className="px-10 py-4" ref={ref}>
         <Project

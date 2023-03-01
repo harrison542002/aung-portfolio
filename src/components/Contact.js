@@ -32,7 +32,7 @@ function Contact() {
         Let's Keep In Touch
       </h1>
       <div className="flex justify-center">
-        <div className="border-t-4 border-white w-96"></div>
+        <div className="border-t-4 border-white lg:w-96 w-72"></div>
       </div>
       <div className="lg:grid grid-cols-2">
         <div className="social px-20 lg:mt-5 mt-0">

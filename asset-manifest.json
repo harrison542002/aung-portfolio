@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/aung-portfolio/static/css/main.e1e69301.css",
-    "main.js": "/aung-portfolio/static/js/main.0cdd2e3d.js",
+    "main.css": "/aung-portfolio/static/css/main.f3d18724.css",
+    "main.js": "/aung-portfolio/static/js/main.22006ba1.js",
     "static/js/787.964c46fa.chunk.js": "/aung-portfolio/static/js/787.964c46fa.chunk.js",
     "static/media/dotted.mp4": "/aung-portfolio/static/media/dotted.6e09be51fe5e9f78005c.mp4",
-    "static/media/profile.png": "/aung-portfolio/static/media/profile.c79a5120dfa01813bc3c.png",
     "static/media/jobhome.png": "/aung-portfolio/static/media/jobhome.0dff8ecd3eb32f26090c.png",
-    "static/media/profile1.png": "/aung-portfolio/static/media/profile1.449096c2bf1155c0e64b.png",
     "static/media/knshowcase.png": "/aung-portfolio/static/media/knshowcase.04ce7f87830ba451e015.png",
     "static/media/car sale.png": "/aung-portfolio/static/media/car sale.a41827e8d3b195b19103.png",
+    "static/media/me.jpg": "/aung-portfolio/static/media/me.c69f207f625d71be70cb.jpg",
     "static/media/jobportal.png": "/aung-portfolio/static/media/jobportal.9bccf5e5a27ad3d6bc0c.png",
     "static/media/kn bk.png": "/aung-portfolio/static/media/kn bk.676d237d080ade21eee8.png",
     "static/media/aungLogo.png": "/aung-portfolio/static/media/aungLogo.bbbb4c23b1986b4154f6.png",
+    "static/media/merrymeal.png": "/aung-portfolio/static/media/merrymeal.2a6afc50859e1c574ec6.png",
     "index.html": "/aung-portfolio/index.html",
-    "main.e1e69301.css.map": "/aung-portfolio/static/css/main.e1e69301.css.map",
-    "main.0cdd2e3d.js.map": "/aung-portfolio/static/js/main.0cdd2e3d.js.map",
+    "main.f3d18724.css.map": "/aung-portfolio/static/css/main.f3d18724.css.map",
+    "main.22006ba1.js.map": "/aung-portfolio/static/js/main.22006ba1.js.map",
     "787.964c46fa.chunk.js.map": "/aung-portfolio/static/js/787.964c46fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1e69301.css",
-    "static/js/main.0cdd2e3d.js"
+    "static/css/main.f3d18724.css",
+    "static/js/main.22006ba1.js"
   ]
 }

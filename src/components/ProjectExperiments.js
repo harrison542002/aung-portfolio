@@ -8,10 +8,11 @@ import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 import JobPortal from "../assets/jobportal.png";
 import JobUI from "../assets/jobhome.png";
+import MerryMeal from "../assets/merrymeal.png";
 
 function ProjectExperiments() {
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.15,
   });
   const animation = useAnimation();
   useEffect(() => {
@@ -37,6 +38,14 @@ function ProjectExperiments() {
         <div className="border-t-4 border-white border lg:w-96 w-72"></div>
       </div>
       <div className="px-10 py-4" ref={ref}>
+        <Project
+          animate={animation}
+          img={MerryMeal}
+          skills="React, Axios, Tailwind CSS, Spring Boot, Material UI, MySQL, SDLC"
+          title="Merry Meal (team project)"
+          source="https://github.com/Khushboo004/Merry-Meal.git"
+          explain="This project is an e-commerce project in which user can order foods. Each role of user will posses unique dashboard. In the team, I performs as a leader."
+        />
         <Project
           animate={animation}
           img={KN}

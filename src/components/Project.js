@@ -3,6 +3,7 @@ import "../resources/css/Portfolio.css";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 
 function Project({ img, title, explain, animate, skills, demo, source }) {
   return (
@@ -16,11 +17,14 @@ function Project({ img, title, explain, animate, skills, demo, source }) {
         </div>
         <div className="col-span-6 p-8">
           <div className="mb-3">
-            <h1 className="mb-5 text-xl font-bold ">{title}</h1>
-            <p>{explain}</p>
+            <h1 className="mb-5 text-3xl font-extrabold ">{title}</h1>
+            <p className="font-extralight">{explain}</p>
           </div>
           <div className="my-5">
-            <h1 className="text-xl font-bold">Skill covered</h1>
+            <h1 className="text-xl font-bold">
+              Skill covered {"  "}
+              <FontAwesomeIcon icon={faLightbulb} />
+            </h1>
             <p>{skills}</p>
           </div>
           <div className="lg:flex">

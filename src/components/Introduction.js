@@ -3,8 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import "../resources/css/Portfolio.css";
 import VideoBG from "../assets/dotted.mp4";
 import { useInView } from "react-intersection-observer";
-import Profile from "../assets/profile.png";
-import Profile1 from "../assets/profile1.png";
+import Profile1 from "../assets/me.jpg";
 
 export default function Introduction() {
   const animation = useAnimation();
@@ -33,11 +32,21 @@ export default function Introduction() {
           >
             <h1
               className="text-center lg:text-5xl text-2xl
-              p-3 lg:p-0 font-extrabold drop-shadow-lg
+              p-3 lg:p-0 font-light drop-shadow-lg mb-3
             h-full"
             >
-              My name is Aung Thiha Tun
+              Hi, I am <span className="font-extrabold">Aung Thiha Tun</span>
             </h1>
+            <div className="py-3 flex justify-center">
+              <a
+                href="https://drive.google.com/file/d/15E_ktf3mY_iOcVBhInzNRgNk3pyKfPx5/view"
+                className="font-extrabold uppercase p-3 text-white
+                hover:bg-pink-700 bg-pink-600 block text-center rounded-lg shadow-md shadow-pink-400
+                hover:-translate-y-3 transition-all delay-75 duration-700"
+              >
+                Download Resume
+              </a>
+            </div>
           </motion.div>
         </div>
 
@@ -57,8 +66,9 @@ export default function Introduction() {
               <img
                 src={Profile1}
                 alt="aung thiha tun"
-                className="lg:w-60 w-48 lg:ml-4 rounded-full border-4
-                shadow-md shadow-gray-500"
+                className="lg:w-60 w-48 lg:ml-4 rounded-lg shadow-sm shadow-pink-400
+                hover:shadow-pink-500
+                hover:-translate-y-5 transition-all duration-700 delay-75"
               />
             </motion.div>
           </div>
@@ -69,17 +79,15 @@ export default function Introduction() {
               transition={{ duration: 3, delay: 0.2 }}
               className="text-white text-center lg:text-left"
             >
-              <h1 className="text-xl mb-2">I am professional in </h1>
-              <h1 className="lg:text-3xl  text-xl font-bold mb-3 text-pink-600">
+              <h1 className="text-xl mb-2 font-light">I am professional in </h1>
+              <h1 className="lg:text-3xl  text-xl font-bold mb-3">
                 Web Development
               </h1>
-              <h1 className="lg:text-3xl text-xl font-bold mb-3 text-pink-600">
-                NodeJS
-              </h1>
-              <h1 className="lg:text-3xl text-xl font-bold mb-3 text-pink-600">
+              <h1 className="lg:text-3xl text-xl font-bold mb-3">NodeJS</h1>
+              <h1 className="lg:text-3xl text-xl font-bold mb-3">
                 Spring Boot and More
               </h1>
-              <h1>Based in Mandalay, Myanmar.</h1>
+              <h1>Lived in Mandalay, Myanmar.</h1>
             </motion.div>
           </div>
         </div>

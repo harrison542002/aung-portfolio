@@ -9,10 +9,11 @@ import { useAnimation } from "framer-motion";
 import JobPortal from "../assets/jobportal.png";
 import JobUI from "../assets/jobhome.png";
 import MerryMeal from "../assets/merrymeal.png";
+import Jumpstart from "../assets/jumpstart.png";
 
 function ProjectExperiments() {
   const { ref, inView } = useInView({
-    threshold: 0.15,
+    threshold: 0.1,
   });
   const animation = useAnimation();
   useEffect(() => {
@@ -38,6 +39,16 @@ function ProjectExperiments() {
         <div className="border-t-4 border-white border lg:w-96 w-72"></div>
       </div>
       <div className="px-10 py-4" ref={ref}>
+        <Project
+          animate={animation}
+          img={Jumpstart}
+          demo="https://jumpstart-jpuvw2xxw-harrison542002.vercel.app/"
+          skills="React, Axios, Tailwind CSS, Spring Boot, Material UI, MySQL, Cloudinary"
+          title="Jumpstart (e-commerce)"
+          source="https://github.com/harrison542002/jumpstart-ecommerce"
+          explain="This project is a real-world e-commerce website in which customer can order and add products into cart. 
+          Furthermore, admin and organization dashboards are also implemented in order to manage products and brands."
+        />
         <Project
           animate={animation}
           img={MerryMeal}
